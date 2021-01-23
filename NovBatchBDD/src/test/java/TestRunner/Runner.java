@@ -13,7 +13,7 @@ import datatest.ConfigFileReader;
 
 
 @RunWith(Cucumber.class)				
-@CucumberOptions(features="C:\\Users\\manee\\eclipse-workspace\\NovBatchBDD\\src\\test\\java\\Features",//feature file package Path
+@CucumberOptions(features="C:\\Users\\manee\\git\\TestNov\\NovBatchBDD\\src\\test\\java\\Features",//feature file package Path
 glue={"StepDefinition"}, //the path of the step definition files
 plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 format= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
