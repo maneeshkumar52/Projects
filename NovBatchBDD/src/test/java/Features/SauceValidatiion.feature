@@ -31,7 +31,7 @@ Feature: Validaton of SauceDemo Feature
     And Click on Finish Button
     And Click on Menu
     And Click on Logout Button
-    And Ignore the test
+   
 
 
     Examples: 
