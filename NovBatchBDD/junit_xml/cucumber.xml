@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="64.802848">
+<testcase classname="Validaton of SauceDemo Feature" name="SauceDemo Test Vaidation 1" time="34.143118">
+<system-out><![CDATA[Given Open the Browser......................................................passed
+And Enter the URL...........................................................passed
+When Enter the username "standard_user" and password "secret_sauce".........passed
+And Click on Login Button...................................................passed
+And Click on Add to Cart Button.............................................passed
+And Click on AddtoCart Icon.................................................passed
+And Click on Checkout.......................................................passed
+Then Enter the FirstName "Maneesh" , LastName "Kumar" and ZipCode "560037"..passed
+And Click Continue button...................................................passed
+And Click on Finish Button..................................................passed
+And Click on Menu...........................................................passed
+And Click on Logout Button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validaton of SauceDemo Feature" name="SauceDemo Test Vaidation 1 2" time="30.65973">
+<system-out><![CDATA[Given Open the Browser......................................................passed
+And Enter the URL...........................................................passed
+When Enter the username "problem_user" and password "secret_sauce"..........passed
+And Click on Login Button...................................................passed
+And Click on Add to Cart Button.............................................passed
+And Click on AddtoCart Icon.................................................passed
+And Click on Checkout.......................................................passed
+Then Enter the FirstName "Satish" , LastName "Test" and ZipCode "456894"....passed
+And Click Continue button...................................................passed
+And Click on Finish Button..................................................passed
+And Click on Menu...........................................................passed
+And Click on Logout Button..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
